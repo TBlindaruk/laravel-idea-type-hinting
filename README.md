@@ -23,3 +23,9 @@ You should extend the `Maksi\TypeHinting\Database\Eloquent\Model` and:
  ---
  
  https://packagist.org/packages/maksi/laravel-idea-type-hinting
+
+---
+
+### Issue
+
+In case if you have some idea for improvements, then please create an issue/PR for this project
