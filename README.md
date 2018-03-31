@@ -19,3 +19,7 @@ You should extend the `Maksi\TypeHinting\Database\Eloquent\Model` and:
  - `update`
  
  methods from Eloquent builder will be type hinted on your models
+ 
+ ---
+ 
+ https://packagist.org/packages/maksi/laravel-idea-type-hinting
