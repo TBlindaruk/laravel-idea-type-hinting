@@ -20,6 +20,7 @@ namespace Maksi\TypeHinting\Database\Eloquent\Concerns;
  * @method \Illuminate\Database\Eloquent\Model|static|mixed firstOr($columns = ['*'], \Closure|null $callback = null)
  * @method \Illuminate\Database\Eloquent\Model create(array $attributes = [])
  * @method \Illuminate\Database\Eloquent\Model forceCreate(array $attributes)
+ * @method \Illuminate\Contracts\Pagination\LengthAwarePaginator paginate($perPage = 15, $columns = ['*'], $pageName= 'page', $page = null)
  * @method int update(array $values)
  *
  * @package Maksi\TypeHinting\Database\Eloquent\Concerns
