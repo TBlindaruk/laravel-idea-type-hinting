@@ -1,7 +1,13 @@
 # laravel-idea-type-hinting
 It is a package for better type hinting
 
-You should extend the `Maksi\TypeHinting\Database\Eloquent\Model` and:
+---
+## Usages:
+
+1. You can extend the `Maksi\TypeHinting\Database\Eloquent\Model` model.
+2. You can use traits: `Maksi\TypeHinting\Eloquent\Concerns\ModelAnnotations.php` and `Maksi\TypeHinting\Eloquent\Concerns\ModelStaticAnnotations.php` directly in your models.
+
+  Methods from Eloquent builder will be type hinted on your models after `model extending` or `traits usages`
  - `whereKey`
  - `whereKeyNot`
  - `where`
@@ -19,7 +25,7 @@ You should extend the `Maksi\TypeHinting\Database\Eloquent\Model` and:
  - `update`
  - `paginate`
  
- methods from Eloquent builder will be type hinted on your models
+
  
  ---
  
